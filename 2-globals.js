@@ -1,4 +1,4 @@
-/* GLOBALS 
+/* GLOBALS (only main concepts)
     1) __dirname- it is used to provide the name of the current directory
 */
 

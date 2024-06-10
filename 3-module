@@ -1,0 +1,28 @@
+const {karthik,hemanth}=require('./3.1-module1.js')
+const sayHi=require('./3.1-module2.js')
+
+sayHi(karthik)
+sayHi(hemanth)
+sayHi("Prashanth")
+
+/* Output:
+        hello Hemanth
+        hello Karthik
+        hello Prashanth
+*/
+/* Explanation:
+        The module is used to represent the code in tiny tiny codes
+        require(file_name) it is used to import all the exported data from the another file 
+        module.exports={kkkkk,kkkkk,kkkk} it is used to export the required details there are many other way of exporting the data
+
+   How to destructure the data that is being exported?
+        The data can only be destructure by just using there name for example
+        const {kkkk,kkkk,kkk}=llllllll; -In this if the data need to be accessed then we can directly use the name because we destructured
+                or
+        const name=llllllll; -In this if the data need to be accessed then we need to do name.kkkk like that
+   How to rename the imported data>
+        const {name1:hemanth,name2:karthik}-if the first name was hemanth and karthik if you need to change it to differnt name then use 
+        renaming as show above
+
+*/
+
